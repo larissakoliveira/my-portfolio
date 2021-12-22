@@ -1,20 +1,19 @@
-import { Flex } from "@chakra-ui/react"
+import { NavBarDivSection, NavBarItems } from "./style"
 
 
 const Header = () => {
 
     return (
-        <Flex
-        justifyContent='space-evenly'
-        fontSize='25px'
-        mt='10px'
-        fontFamily='roboto'
+        <NavBarDivSection
+
         >
-          <a href="#start">&lt;/início&gt;</a>
-          <a href="#projects">&lt;/projetos&gt;</a>
-          <a href="#aboutMe">&lt;/sobre&gt;</a>
-          <a href="#contact">&lt;/contatos&gt;</a>
-      </Flex>
+          <NavBarItems href="#start">&lt;/início&gt;</NavBarItems>
+          <NavBarItems href="#projects">&lt;/projetos&gt;</NavBarItems>
+          <NavBarItems href="#aboutMe">&lt;/sobre&gt;</NavBarItems>
+          <NavBarItems href="#contact">&lt;/contatos&gt;</NavBarItems>
+        
+      </NavBarDivSection>
+      
     )
 }
 
