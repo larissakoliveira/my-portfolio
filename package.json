@@ -15,6 +15,7 @@
     "react-animated-dots": "^1.1.0",
     "react-animated-ellipsis": "^1.0.0",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",

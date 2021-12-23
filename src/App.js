@@ -4,6 +4,7 @@ import { About } from "./components/About";
 import GlobalStyle from './GlobalStyles';
 import sample from './Video/code-coding.mp4';
 import { Projects } from "./components/Projects";
+import { Contacts } from "./components/Contacts";
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       <Header/>
       <Home/>
       <Projects/>
-      <About />
+      <About/>
+      <Contacts/>
    </>
   );
 }

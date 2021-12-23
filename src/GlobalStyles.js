@@ -8,6 +8,19 @@ const GlobalStyle = createGlobalStyle`
         color: #ffffff;
         font-weight: bold;
         font-family: 'Fira Code', monospace;
+        overflowX: "hidden",
+        overflowY: "auto",
+    "&::-webkit-scrollbar": {
+        width: "10px",
+      },
+
+      "&::-webkit-scrollbar-track": {
+        background: "green",
+      },
+
+      "&::-webkit-scrollbar-thumb": {
+        backgroundColor: "purple",
+      }
     }
 
 `

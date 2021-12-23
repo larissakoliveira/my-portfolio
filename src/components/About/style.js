@@ -4,10 +4,11 @@ export const DivAboutMe = styled.div`
   width: 100%;
   height: auto;
   background-color: #000000;
+  opacity: 1;
 
-  #aboutMe {
+  .aboutMe {
     color: #ffffff;
-    margin-left: 45px;
+    text-align: center;
   }
   `
 
@@ -71,6 +72,9 @@ export const MainDivLine = styled.p`
     .purpleIndentedTwice {
       color: #6247aa;
       margin-left: 50px;
+    }
+    .comments {
+      color: #7d8597;
     }
 
     &:hover { 

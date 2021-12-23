@@ -10,7 +10,7 @@ const Header = () => {
           <NavBarItems href="#start">&lt;/início&gt;</NavBarItems>
           <NavBarItems href="#projects">&lt;/projetos&gt;</NavBarItems>
           <NavBarItems href="#aboutMe">&lt;/sobre&gt;</NavBarItems>
-          <NavBarItems href="#contact">&lt;/contatos&gt;</NavBarItems>
+          <NavBarItems href="#contacts">&lt;/contatos&gt;</NavBarItems>
         
       </NavBarDivSection>
       
