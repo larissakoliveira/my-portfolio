@@ -2,6 +2,8 @@ import { MainDiv } from "./style";
 import Typing from 'react-typing-animation';
 
 export const Home = () => {
+
+
   return (
     <MainDiv id='start'>
         <p className="start">&lt;/inicio&gt;</p>

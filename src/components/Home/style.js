@@ -35,4 +35,7 @@ export const MainDiv = styled.div`
         font-size: 1.7rem;
         text-align: center;
     }
-`
+
+    
+    }
+`;
