@@ -7,9 +7,14 @@ export const MainSection = styled.section`
     display: flex;
     flex-direction: column;
 
+    span {
+        color: #1d4e89;
+    }
     .subtitle {
         text-align: center;
-        color: purple;
+        color: white;
+        font-size: 1.4rem;
+        padding: 25px;
     }
 
     .projects {
@@ -32,5 +37,14 @@ export const DivProjects = styled.div`
 
     h2 {
         text-align: center;
+        color: purple;
+        font-size: 1.3rem;
+        margin: 0;
     }
+
+    p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
 `

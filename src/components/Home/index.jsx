@@ -10,8 +10,8 @@ export const Home = () => {
         <Typing speed={20}>
         <h1> Olá! </h1><br/>
         <p>
-        Meu nome é {<a href='#aboutMe'>Larissa Oliveira</a>}, <br/> 
-        sou dev front-end! <br/> <br/> 
+        Sou {<a href='#aboutMe'>Larissa Oliveira</a>}, <br/> 
+        dev front-end! <br/> <br/> 
         Venha conhecer melhor meu portfólio...
         </p>
         </Typing>

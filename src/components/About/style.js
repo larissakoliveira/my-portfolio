@@ -16,7 +16,7 @@ export const DivAboutMe = styled.div`
 
 export const MainDiv = styled.div`
   border-left: 1px solid #ffffff;
-  margin-left: 120px;
+  margin-left: 40px;
   padding-left: 20px
 `
 export const MainDivLine = styled.p`
