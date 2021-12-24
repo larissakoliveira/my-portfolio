@@ -34,8 +34,8 @@ export const MainDiv = styled.section`
         text-decoration: none;
     }
     a:hover {
-        color: #38b000;
-      }
+      color:  #113537
+   }
 
       a:active {
         color: none;
@@ -56,7 +56,10 @@ export const MainDiv = styled.section`
     }
 
     button:hover {
-      background: #38b000;
+      background-image: linear-gradient(
+        #000000,
+        #113537
+      );
     }
     
     `

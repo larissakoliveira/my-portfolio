@@ -5,6 +5,8 @@ export const DivAboutMe = styled.div`
   height: auto;
   background-color: #000000;
   opacity: 1;
+  border: 1px solid #fff;
+  margin-top: 50px;
 
   .aboutMe {
     color: #ffffff;
@@ -72,6 +74,10 @@ export const MainDivLine = styled.p`
     .purpleIndentedTwice {
       color: #6247aa;
       margin-left: 50px;
+    }
+    .purpleIndentedThrice {
+      color: #6247aa;
+      margin-left: 75px;
     }
     .comments {
       color: #7d8597;

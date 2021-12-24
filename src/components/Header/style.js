@@ -12,7 +12,6 @@ export const NavBarDivSection = styled.div`
   align-items: center;
   border-radius: 7px;
   opacity: 0.87;
-
   background-image: linear-gradient(
     #000000,
     #113537

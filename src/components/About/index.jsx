@@ -3,7 +3,7 @@ import { Flex } from "@chakra-ui/react";
 
 export const About = () => {
   return (
-    <Flex  id="aboutMe">
+    <Flex id="aboutMe">
       <DivAboutMe>
         <h1 className="aboutMe">&lt;/sobre&gt;</h1>
         <MainDiv>
@@ -35,7 +35,7 @@ export const About = () => {
           <MainDivLine>
             <span className="numbers">03</span>
             <span className="cyan">this</span>.
-            <span className="lightBlue">name</span> = 
+            <span className="lightBlue">name</span> =
             <span className="red"> "Larissa Oliveira"</span>
           </MainDivLine>
           <MainDivLine>
@@ -77,7 +77,7 @@ export const About = () => {
             <span className="numbers">10</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "08/2019 - 06/2020": "Pabú Izakaya - Auxiliar Administrativo"
+              "01/2017 - 03/2017": "Pabú Izakaya - Auxiliar Administrativo"
             </span>
             <span className="yellow">&#125;</span>,
           </MainDivLine>
@@ -85,7 +85,7 @@ export const About = () => {
             <span className="numbers">11</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "08/2019 - 06/2020": "Colégio Marista - Auxiliar Administrativo"
+              "03/2017 - 10/2018": "Colégio Marista - Auxiliar Administrativo"
             </span>
             <span className="yellow">&#125;</span>,
           </MainDivLine>
@@ -93,7 +93,7 @@ export const About = () => {
             <span className="numbers">12</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "08/2019 - 06/2020": "Eataly Paris - Recepcionista"
+              "04/2019 - 03/2020": "Eataly Paris - Recepcionista"
             </span>
             <span className="yellow">&#125;</span>
           </MainDivLine>
@@ -183,12 +183,41 @@ export const About = () => {
           </MainDivLine>
           <MainDivLine>
             <span className="numbers">25</span>
-            <span className="purpleIndentedTwice">return </span>
-            <span className="yellow">[</span>
+            <span className="cyan">const </span>
+            <span className="lightBlue">tecnologias</span> =
+            <span className="yellow"> [</span>
             <span className="red">
               "HTML","CSS","Javascript","ReactJS","Redux","Python","GIT","npm/yarn","Flask","Typescript"
             </span>
             <span className="yellow">]</span>
+          </MainDivLine>
+          <MainDivLine>
+            <span className="numbers">25</span>
+            <span className="cyan">const </span>
+            <span className="lightBlue">QUALIDDES</span> =
+            <span className="yellow"> [</span>
+            <span className="red">"Criativa, comunicativa, atencao"</span>
+            <span className="yellow">]</span>
+          </MainDivLine>
+          <MainDivLine>
+            <span className="numbers">25</span>
+            <span className="cyan">const </span>
+            <span className="lightBlue">dev</span> =
+            <span className="yellow"> [</span>
+            <span className="yellow">&#123;</span>
+            <span className="red">"Hard Skills": </span>
+            <span className="lightBlue">tecnologias</span>
+            <span className="yellow">&#125;</span>,
+            <span className="yellow"> &#123;</span>
+            <span className="red">"Soft Skills": </span>
+            <span className="lightBlue">qualidades</span>
+            <span className="yellow">&#125;</span>
+            <span className="yellow">]</span>
+          </MainDivLine>
+          <MainDivLine>
+            <span className="numbers">25</span>
+            <span className="purpleIndentedThrice">return </span>
+            <span className="lightBlue">tecnologias</span>
           </MainDivLine>
           <MainDivLine>
             <span className="numbers">26</span>
@@ -207,3 +236,5 @@ export const About = () => {
     </Flex>
   );
 };
+
+
