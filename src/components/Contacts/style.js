@@ -4,6 +4,7 @@ export const MainDiv = styled.section`
         height: 170px;  
         display: flex;
         flex-direction: column;
+        
     div {
         display: flex;
         justify-content: space-evenly; 
@@ -21,6 +22,10 @@ export const MainDiv = styled.section`
         font-family= "Fira Code", monospace;
         font-size: 2em;
         padding: 10px;
+    }
+
+    h2 {
+      text-align: center;
     }
     
     a {
@@ -40,14 +45,14 @@ export const MainDiv = styled.section`
       text-align: center;
       background-image: linear-gradient(to bottom right, purple, blue);
       cursor: pointer;
-      padding: 10px;
+      padding: 5px;
       color: #ffffff;
       border-radius: 7px;
       font-weight: bold;
       font-size: 24px;
       font-family:roboto;
-      // width: 30%;
-      // margin: auto;
+      width: 25%;
+      margin: 15px auto;
     }
 
     button:hover {

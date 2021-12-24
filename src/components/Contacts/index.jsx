@@ -1,8 +1,9 @@
 import { SiLinkedin } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 import { MainDiv } from "./style";
+import { FormContact } from "../FormContact";
 
-export const Contacts = () => {
+export const Contacts = ({onOpen}) => {
   return (
     <MainDiv id='contacts'>
       <h1>&lt;/contatos&gt;</h1>
@@ -17,7 +18,8 @@ export const Contacts = () => {
        -&#62; Meu GitHub
       </a>
       </div>
-      <button>Fale Comigo</button>
+      <h2>Envie uma mensagem!</h2>
+      <FormContact/>
     </MainDiv>
   );
 };

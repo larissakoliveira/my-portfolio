@@ -10,6 +10,7 @@
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "babel-runtime": "^6.26.0",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^4",
     "react": "^17.0.2",
     "react-animated-dots": "^1.1.0",
@@ -19,6 +20,7 @@
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-toastify": "^8.1.0",
     "react-typing-animation": "^1.6.2",
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.0"

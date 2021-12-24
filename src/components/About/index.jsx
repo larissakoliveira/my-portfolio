@@ -24,7 +24,7 @@ export const About = () => {
             <span className="numbers">03</span>
             <span className="comments">
               {" "}
-              &#47;&#47;Empenhada em aumentar cada dia mais hard e soft skills.{" "}
+              &#47;&#47;Disposta a aumentar cada dia mais hard e soft skills.{" "}
             </span>
           </MainDivLine>
           <MainDivLine>
@@ -35,20 +35,20 @@ export const About = () => {
           <MainDivLine>
             <span className="numbers">03</span>
             <span className="cyan">this</span>.
-            <span className="lightBlue">name</span>
-            <span className="red">"Larissa Oliveira"</span>
+            <span className="lightBlue">name</span> = 
+            <span className="red"> "Larissa Oliveira"</span>
           </MainDivLine>
           <MainDivLine>
             <span className="numbers">04</span>
             <span className="cyan">this</span>.
-            <span className="lightBlue">city</span>
-            <span className="red">"Rio de Janeiro - RJ"</span>
+            <span className="lightBlue">city</span> =
+            <span className="red"> "Rio de Janeiro - RJ"</span>
           </MainDivLine>
           <MainDivLine>
             <span className="numbers">05</span>
             <span className="cyan">this</span>.
-            <span className="lightBlue">email</span>
-            <span className="red">"oliveir5uwm@gmail.com"</span>
+            <span className="lightBlue">email</span> =
+            <span className="red"> "oliveir5uwm@gmail.com"</span>
           </MainDivLine>
           <MainDivLine>
             <span className="numbers">06</span>
