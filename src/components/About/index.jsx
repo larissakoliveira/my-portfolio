@@ -187,7 +187,7 @@ export const About = () => {
             <span className="lightBlue">tecnologias</span> =
             <span className="yellow"> [</span>
             <span className="red">
-              "HTML","CSS","Javascript","ReactJS","Redux","Python","GIT","npm/yarn","Flask","Typescript"
+              "HTML","CSS","Javascript","React","Redux","Python","GIT","npm/yarn","Flask","Typescript"
             </span>
             <span className="yellow">]</span>
           </MainDivLine>
@@ -196,7 +196,7 @@ export const About = () => {
             <span className="cyan">const </span>
             <span className="lightBlue">qualidades</span> =
             <span className="yellow"> [</span>
-            <span className="red">"Criativa, comunicativa, atencao"</span>
+            <span className="red">"criativa", "comunicativa", "resiliente", "autodidata"</span>
             <span className="yellow">]</span>
           </MainDivLine>
           <MainDivLine>

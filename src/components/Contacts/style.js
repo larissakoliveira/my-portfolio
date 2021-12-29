@@ -32,6 +32,7 @@ export const MainDiv = styled.section`
         cursor: pointer;
         font-size:1.7em;
         text-decoration: none;
+        color:  #5A49AD;
     }
     a:hover {
       color:  #113537
