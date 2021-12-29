@@ -9,13 +9,13 @@ export const Contacts = ({onOpen}) => {
       <h1>&lt;/contatos&gt;</h1>
       <div>
       <a href="https://www.linkedin.com/in/oliveir5/">
-        Meu LinkedIn &#60;- 
+        LinkedIn &#60;- 
         <SiLinkedin size="39px" color='#0B66C2' />
       </a>
       <h2>||</h2>
       <a href="https://github.com/larissakoliveira">
         <BsGithub  color='#ffffff' size="40px"/>
-       -&#62; Meu GitHub
+       -&#62; GitHub
       </a>
       </div>
       <h2>Envie uma mensagem!</h2>

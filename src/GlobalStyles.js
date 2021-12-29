@@ -10,16 +10,17 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Fira Code', monospace;
         overflowX: "hidden",
         overflowY: "auto",
-    "&::-webkit-scrollbar": {
-        width: "10px",
+        
+      "&::-webkit-scrollbar": {
+        width: 10px,
       },
 
       "&::-webkit-scrollbar-track": {
-        background: "green",
+        background: green,
       },
 
       "&::-webkit-scrollbar-thumb": {
-        backgroundColor: "purple",
+        backgroundColor: purple,
       }
     }
 

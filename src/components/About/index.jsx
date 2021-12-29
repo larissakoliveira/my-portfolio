@@ -194,7 +194,7 @@ export const About = () => {
           <MainDivLine>
             <span className="numbers">25</span>
             <span className="cyan">const </span>
-            <span className="lightBlue">QUALIDDES</span> =
+            <span className="lightBlue">qualidades</span> =
             <span className="yellow"> [</span>
             <span className="red">"Criativa, comunicativa, atencao"</span>
             <span className="yellow">]</span>
@@ -217,7 +217,7 @@ export const About = () => {
           <MainDivLine>
             <span className="numbers">25</span>
             <span className="purpleIndentedThrice">return </span>
-            <span className="lightBlue">tecnologias</span>
+            <span className="lightBlue">dev</span>
           </MainDivLine>
           <MainDivLine>
             <span className="numbers">26</span>
@@ -236,5 +236,3 @@ export const About = () => {
     </Flex>
   );
 };
-
-
