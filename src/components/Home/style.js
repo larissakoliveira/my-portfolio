@@ -1,16 +1,17 @@
 import styled from "styled-components";
-
+// #0C1E1D
 export const MainDiv = styled.div`
-    background-color: #0C1E1D;
+    background-color: #18171B;
     width: 60%;
     height: 400px;
     position: absolute;
-    top: 20%;
+    top: 19%;
     bottom: 15%;
     right: 20%;
     left: 20%;
     border-radius: 10px;
-    opacity: 0.95;
+    opacity: 0.97;
+    outline: solid 1px #000;
 
     h1 {
         color: #d3d3d3;

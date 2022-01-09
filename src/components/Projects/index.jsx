@@ -4,7 +4,7 @@ import kenzieHub from "../../assets/Video/kenzieHub.mp4";
 import betterLife from "../../assets/Video/better-life.mp4";
 import adm from "../../assets/Video/adm.mp4";
 import rockPaperScissor from "../../assets/Video/rock-paper-scissor.mp4";
-import Hamburkenzie from "../../assets/Video/hamburgueria.webm";
+import Hamburkenzie from "../../assets/Video/hamburgueria.webm"; 
 import { Flex } from "@chakra-ui/react";
 import ModalReadMe from "../ModalReadMe";
 

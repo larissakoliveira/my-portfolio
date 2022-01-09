@@ -11,10 +11,10 @@ export const NavBarDivSection = styled.div`
   opacity: 10;
   align-items: center;
   border-radius: 7px;
-  opacity: 0.87;
+  opacity: 0.92;
   background-image: linear-gradient(
     #000000,
-    #113537
+    #212529
   );
   transition: top 0.8s;
   z-index: 9;
