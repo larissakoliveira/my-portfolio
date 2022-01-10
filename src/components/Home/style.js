@@ -10,7 +10,7 @@ export const MainDiv = styled.div`
     right: 20%;
     left: 20%;
     border-radius: 10px;
-    opacity: 0.97;
+    opacity: 0.98;
     outline: solid 1px #000;
 
     h1 {
