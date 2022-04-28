@@ -64,7 +64,7 @@ export const About = () => {
             <span className="purpleIndentedTwice">return </span>
             <span className="yellow">[</span>
           </MainDivLine>
-          {/* <MainDivLine>
+          <MainDivLine>
             <span className="numbers">09</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
@@ -72,7 +72,7 @@ export const About = () => {
               Engenharia de Produção"
             </span>
             <span className="yellow">&#125;</span>,
-          </MainDivLine> */}
+          </MainDivLine>
           <MainDivLine>
             <span className="numbers">11</span>
             <span className="yellowIndentedThrice">&#123;</span>
@@ -99,24 +99,32 @@ export const About = () => {
           </MainDivLine>
           <MainDivLine>
             <span className="numbers">14</span>
-            <span className="yellowIndentedTwice">]</span>
+            <span className="yellowIndentedThrice">&#123;</span>
+            <span className="red">
+              "02/2022 - atual": "Coach (monitoria de futuro devs) - Kenzie Academy Brasil"
+            </span>
+            <span className="yellow">&#125;</span>
           </MainDivLine>
           <MainDivLine>
             <span className="numbers">15</span>
-            <span className="purpleIndented">&#125; </span>
+            <span className="yellowIndentedTwice">]</span>
           </MainDivLine>
           <MainDivLine>
             <span className="numbers">16</span>
+            <span className="purpleIndented">&#125; </span>
+          </MainDivLine>
+          <MainDivLine>
+            <span className="numbers">17</span>
             <span className="yellowIndented">education</span>
             <span className="purple">&#40;&#41; &#123;</span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">17</span>
+            <span className="numbers">18</span>
             <span className="purpleIndentedTwice">return </span>
             <span className="yellow">[</span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">18</span>
+            <span className="numbers">19</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
               "02/2011 - 12/2016": "Universidade do Estado de Minas Gerais -
@@ -125,34 +133,34 @@ export const About = () => {
             <span className="yellow">&#125;</span>,
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">19</span>
+            <span className="numbers">20</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "05/2021 - now": "Kenzie Academy Brasil - Desenvolvedora Web
+              "05/2021 - 06/2022": "Kenzie Academy Brasil - Desenvolvedora Web
               FullStack"
             </span>
             <span className="yellow">&#125;</span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">20</span>
+            <span className="numbers">21</span>
             <span className="yellowIndentedTwice">]</span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">21</span>
+            <span className="numbers">22</span>
             <span className="purpleIndented">&#125; </span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">22</span>
+            <span className="numbers">23</span>
             <span className="yellowIndented">exchange</span>
             <span className="purple">&#40;&#41; &#123;</span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">23</span>
+            <span className="numbers">24</span>
             <span className="purpleIndentedTwice">return </span>
             <span className="yellow">[</span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">24</span>
+            <span className="numbers">25</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
               "08/2013 - 12/2015": "Graduação Sanduíche/Eng. de Produção -
@@ -161,7 +169,7 @@ export const About = () => {
             <span className="yellow">&#125;</span>,
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">25</span>
+            <span className="numbers">26</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
               "03/2019 - 03/2020": "Working Holiday - Paris/França"
@@ -169,20 +177,20 @@ export const About = () => {
             <span className="yellow">&#125;</span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">26</span>
+            <span className="numbers">27</span>
             <span className="yellowIndentedTwice">]</span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">27</span>
+            <span className="numbers">28</span>
             <span className="purpleIndented">&#125; </span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">28</span>
+            <span className="numbers">29</span>
             <span className="yellowIndented">skills</span>
             <span className="purple">&#40;&#41; &#123;</span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">29</span>
+            <span className="numbers">30</span>
             <span className="purpleIndentedTwice">return </span>
             <span className="yellow"> [</span>
             <span className="red">
@@ -191,11 +199,11 @@ export const About = () => {
             <span className="yellow">]</span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">30</span>
+            <span className="numbers">31</span>
             <span className="purpleIndented">&#125; </span>
           </MainDivLine>
           <MainDivLine>
-            <span className="numbers">31</span>
+            <span className="numbers">32</span>
             <span className="yellow">&#125; </span>
             <BlinkingCursor>
               {" "}

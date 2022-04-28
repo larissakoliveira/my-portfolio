@@ -18,7 +18,7 @@ export const Projects = () => {
           <div>
             <h2>Hamburkenzie</h2>
             <p><span>#</span>React <span>#</span>Typescript <span>#</span>JSON-server <span>#</span>Stripe <span>#</span>mobileFirst<br/><span>#</span>hookForm <span>#</span>contextApi <span>#</span>chakraUi <span>#</span>API</p>
-            <video border-radius='50px' width="100%" src={Hamburkenzie} autoPlay loop muted />
+            <video width="100%" src={Hamburkenzie} autoPlay loop muted />
             <ModalReadMe content={"API feita com o json-server. Aplicação ecommerce de fastfood. Feito o cadastro e logado, é só escolher dentre os produtos disponíveis, colocar no carrinho, aceitamos cartão de crédito/débito ou pix, coloque seu endereço e logo seu pedido estará em sua casa."} title={"Hamburkenzie"}/>
           </div>
          

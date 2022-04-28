@@ -2,6 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     body {
+      min-inline-size: fit-content;
         margin: 0;
         padding: 0;
         background: black;

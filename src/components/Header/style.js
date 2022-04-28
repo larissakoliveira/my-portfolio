@@ -4,7 +4,7 @@ export const NavBarDivSection = styled.div`
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
-  width: 100vw;
+  width: 100%;
   height: 8vh;
   position: fixed;
   top: 0px;
