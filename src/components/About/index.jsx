@@ -194,7 +194,7 @@ export const About = () => {
             <span className="purpleIndentedTwice">return </span>
             <span className="yellow"> [</span>
             <span className="red">
-              "HTML","CSS","Javascript","React","Redux","Python","GIT","NodeJs","Flask","Typescript"
+              "HTML","CSS","Javascript","React", "Typescript", "Redux","Python","GIT","NodeJs","Flask"
             </span>
             <span className="yellow">]</span>
           </MainDivLine>

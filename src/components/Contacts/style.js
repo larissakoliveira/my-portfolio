@@ -24,18 +24,39 @@ export const MainDiv = styled.section`
         padding: 10px;
     }
 
+    .whatsappClass {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      padding: 0;
+      font-size:1.2em;
+    }
+
+    .whatsappClass:hover {
+      color:  #B95941
+   }
+
+    .sendMsg {
+      margin-top: 4rem;
+    }
+
+    p {
+      margin: 0;
+    }
+
     h2 {
       text-align: center;
     }
     
     a {
         cursor: pointer;
-        font-size:1.7em;
+        font-size:1.2em;
         text-decoration: none;
-        color:  #5A49AD;
+        color:  #fff;
     }
     a:hover {
-      color:  #113537
+      color:  #B95941
    }
 
       a:active {
