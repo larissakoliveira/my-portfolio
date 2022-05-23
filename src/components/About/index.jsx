@@ -50,6 +50,7 @@ export const About = () => {
             <span className="lightBlue">email</span> =
             <span className="red"> "oliveir5uwm@gmail.com"</span>
           </MainDivLine>
+ 
           <MainDivLine>
             <span className="numbers">08</span>
             <span className="purpleIndented">&#125; </span>

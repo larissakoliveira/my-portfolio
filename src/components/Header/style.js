@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const NavBarDivSection = styled.div`
+export const NavBarDivSection = styled.header`
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
@@ -18,12 +18,20 @@ export const NavBarDivSection = styled.div`
   );
   transition: top 0.8s;
   z-index: 9;
-`;
 
-export const NavBarItems = styled.a`
-    font-size: 1.7em;
+  
+  a {
     font-family: roboto;
     color: #fff;
     font-weight: bold;
     text-decoration: none;
-`
+    font-size: 1.7em;
+    padding: 1rem;
+  }
+
+  .mobile {
+    display: none;
+  }
+`;
+
+

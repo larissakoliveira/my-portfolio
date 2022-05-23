@@ -27,6 +27,10 @@ export const MainDivLine = styled.p`
     font-size: 1.1em;
     opacity: 0.8;
 
+    a {
+      text-decoration: none;
+    }
+
 
     .numbers {
       margin-right: 20px;

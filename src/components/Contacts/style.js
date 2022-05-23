@@ -30,12 +30,10 @@ export const MainDiv = styled.section`
       align-items: center;
       cursor: pointer;
       padding: 0;
-      font-size:1.2em;
+
     }
 
-    .whatsappClass:hover {
-      color:  #B95941
-   }
+
 
     .sendMsg {
       margin-top: 4rem;
@@ -54,6 +52,7 @@ export const MainDiv = styled.section`
         font-size:1.2em;
         text-decoration: none;
         color:  #fff;
+        margin: 0;
     }
     a:hover {
       color:  #B95941
