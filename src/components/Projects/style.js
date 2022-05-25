@@ -35,12 +35,11 @@ export const DivProjects = styled.div`
         max-width: 500px;
     }
 
-    h2 {
-        text-align: center;
-        color: purple;
-        font-size: 1.3rem;
-        margin: 0;
-    }
+        a, h2 {
+            color: #fff;
+            font-size: 1.3rem;
+            text-align: center;
+        }
 
     p {
         text-align: center;

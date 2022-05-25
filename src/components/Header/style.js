@@ -8,9 +8,7 @@ export const NavBarDivSection = styled.header`
   height: 8vh;
   position: fixed;
   top: 0px;
-  opacity: 10;
   align-items: center;
-  border-radius: 7px;
   opacity: 0.92;
   background-image: linear-gradient(
     #000000,
@@ -18,20 +16,28 @@ export const NavBarDivSection = styled.header`
   );
   transition: top 0.8s;
   z-index: 9;
-
+  
+  nav {
+    position: fixed;
+  }
   
   a {
     font-family: roboto;
     color: #fff;
     font-weight: bold;
     text-decoration: none;
-    font-size: 1.7em;
-    padding: 1rem;
+    font-size: calc(0.5em + 1vw);
+    padding: 12px;
   }
 
+
+  @media only screen and (min-width: 615px) {
+    
   .mobile {
     display: none;
   }
+  }  
+
 `;
 
 

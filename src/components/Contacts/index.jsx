@@ -28,7 +28,7 @@ export const Contacts = ({ onOpen }) => {
 
         <h2>||</h2>
         <a href="https://github.com/larissakoliveira">
-          <BsGithub color='#ffffff' size="40px" />
+          <BsGithub color='#ffffff' size="39px" />
           -&#62; GitHub
         </a>
       </div>

@@ -7,6 +7,7 @@ export const Form = styled.form`
     background-color: #e5e5e5;
     margin: auto;
     border-radius: 10%;
+    padding-bottom: 5px;
 
     header {    
         margin: 20px 100px;
