@@ -46,4 +46,8 @@ export const DivProjects = styled.div`
         font-size: 1rem;
     }
 
+    video {
+        min-width: 300px;
+    }
+
 `
