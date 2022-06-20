@@ -51,7 +51,7 @@ export const MainDiv = styled.div`
     min-width: 250px;
     max-width: 275px;
     width: 275px;
-    left: 0%;
+    left: 0%; 
     transform: translateX(55%);
   }
 `;
