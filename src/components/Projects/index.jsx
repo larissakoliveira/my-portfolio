@@ -53,13 +53,13 @@ export const Projects = () => {
         <h1 className="subtitle"><span>&#60;h1&#62; </span>Trabalhando em equipe <span>&#60;/h1&#62;</span></h1>
         <DivProjects>
           <div>
-            <a target="_blank" rel="noreferrer" href="https://cookin-receitas-afetivas.vercel.app/">BetterLifeApp</a>
+            <a target="_blank" rel="noreferrer" href="https://better-life-app.vercel.app/">BetterLifeApp</a>
             <p><span>#</span>mobileFirst <span>#</span>React <span>#</span>cz-conventional-changelog <br/> <span>#</span>react-google-charts <span>#</span>axios <span>#</span>API  </p>
             <video width="100%" src={betterLife} autoPlay loop muted />
             <ModalReadMe content={"Aplicação construída em grupo para gerenciamento de hábitos saudáveis, com ela é possível adicionar novos hábitos,colocar metas, entrar em grupos que buscam o mesmo objetivo. A documentação da API usada encontra-se em https://github.com/Kenzie-Academy-Brasil-Developers/habits-api"} title={"BetterLifeApp"}/>
           </div>
           <div>
-            <a target="_blank" rel="noreferrer" href="https://better-life-app.vercel.app/">Cookin'App</a>
+            <a target="_blank" rel="noreferrer" href="https://cookin-receitas-afetivas.vercel.app/">Cookin'App</a>
             <p><span>#</span>React <span>#</span>mobileFirst <span>#</span>JavaScript <span>#</span>cypress <br/><span>#</span>jwt-decode <span>#</span>react-google-login <span>#</span>JSON-server  </p>
             <video width="100%" src={cookin} autoPlay loop muted />
             <ModalReadMe content={"Aplicação construída em grupo, foi feita como uma rede social para compartilhamento de receitas, nela você tem a opção de se cadastrar de forma mais fácil usando sua conta do Google, ter acesso a todas receitas que são públicas, cadastrar suas receitas e compartilhar. A url base da API que criamos para a aplicação é https://api-cookin.herokuapp.com "} title={"Cookin'App"}/>
