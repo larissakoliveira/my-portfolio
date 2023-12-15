@@ -78,7 +78,7 @@ export const About = () => {
             <span className="numbers">11</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "02/2017 - 04/2017": "Pabú Izakaya - Auxiliar Administrativo"
+            "05/2017 - 10/2018": "Colégio Marista - Auxiliar Administrativo"
             </span>
             <span className="yellow">&#125;</span>,
           </MainDivLine>
@@ -86,7 +86,7 @@ export const About = () => {
             <span className="numbers">12</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "05/2017 - 10/2018": "Colégio Marista - Auxiliar Administrativo"
+            "04/2019 - 03/2020": "Eataly Paris - CHECK"
             </span>
             <span className="yellow">&#125;</span>,
           </MainDivLine>
@@ -94,7 +94,7 @@ export const About = () => {
             <span className="numbers">13</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "04/2019 - 03/2020": "Eataly Paris - Recepcionista"
+            "02/2022 - 06/2022": "Coach (monitoria de futuro devs) - Kenzie Academy Brasil"
             </span>
             <span className="yellow">&#125;</span>
           </MainDivLine>
@@ -102,7 +102,7 @@ export const About = () => {
             <span className="numbers">14</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "02/2022 - atual": "Coach (monitoria de futuro devs) - Kenzie Academy Brasil"
+            "06/2022 - Atual": "Desenvolvedora Full Stack - McFadyen Digital"
             </span>
             <span className="yellow">&#125;</span>
           </MainDivLine>
@@ -137,8 +137,7 @@ export const About = () => {
             <span className="numbers">20</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "05/2021 - 06/2022": "Kenzie Academy Brasil - Desenvolvedora Web
-              FullStack"
+              "05/2021 - 06/2022": "Kenzie Academy Brasil - Desenvolvedora Full Stack"
             </span>
             <span className="yellow">&#125;</span>
           </MainDivLine>
@@ -195,7 +194,7 @@ export const About = () => {
             <span className="purpleIndentedTwice">return </span>
             <span className="yellow"> [</span>
             <span className="red">
-              "HTML","CSS","Javascript","React", "Typescript", "Redux","Python","GIT","NodeJs","Flask"
+              "JavaScript (TypeScript)", "Python", "HTML/CSS", "PHP", "React", "Magento", "Vue", "Angular", "NodeJs", "Flask", "TypeORM", "ExpressJS", "SQL/NoSQL", "PostgresSQL", "MariaDB", "GIT", "Scrum", "VsCode", "Tests TDD/BDD (cucumber/cypress)"
             </span>
             <span className="yellow">]</span>
           </MainDivLine>

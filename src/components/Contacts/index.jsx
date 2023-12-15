@@ -10,7 +10,7 @@ export const Contacts = ({ onOpen }) => {
     <MainDiv id='contacts'>
       <h1>&lt;/contatos&gt;</h1>
       <div>
-        <a href="https://www.linkedin.com/in/oliveir5/">
+        <a href="https://www.linkedin.com/in/larissakoliveira/">
           LinkedIn &#60;-
           <SiLinkedin size="39px" color='#0B66C2' />
         </a>

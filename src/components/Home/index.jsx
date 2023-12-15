@@ -5,16 +5,18 @@ export const Home = () => {
 
 
   return (
-    <MainDiv id='start'>
+    <div>
+    <MainDiv>
         <p className="start">&lt;/inicio&gt;</p>
         <Typing speed={30}>
         <h1> Olá! </h1><br/>
         <p>
         Sou {<a href='#aboutMe'>Larissa Oliveira</a>}, <br/> 
-        dev front-end! <br/> <br/> 
+        dev full stack! <br/> <br/> 
         Venha conhecer melhor meu portfólio...
         </p>
         </Typing>
     </MainDiv>
+    </div>
   );
 };
