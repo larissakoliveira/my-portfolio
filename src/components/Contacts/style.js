@@ -36,7 +36,7 @@ export const MainDiv = styled.section`
 
 
     .sendMsg {
-      margin-top: 4rem;
+      color: #000000;
     }
 
     p {
@@ -71,7 +71,7 @@ export const MainDiv = styled.section`
       border-radius: 7px;
       font-weight: bold;
       font-size: 24px;
-      font-family:roboto;
+      font-family: 'Fira Code', monospace;
       width: 25%;
       margin: 15px auto;
     }

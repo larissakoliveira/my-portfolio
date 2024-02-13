@@ -22,7 +22,7 @@ export const NavBarDivSection = styled.header`
   }
   
   a {
-    font-family: roboto;
+    font-family: 'Fira Code', monospace;
     color: #fff;
     font-weight: bold;
     text-decoration: none;

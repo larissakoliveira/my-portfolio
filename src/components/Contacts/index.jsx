@@ -8,7 +8,7 @@ export const Contacts = ({ onOpen }) => {
   return (
 
     <MainDiv id='contacts'>
-      <h1>&lt;/contatos&gt;</h1>
+      <h1>&lt;/contacts&gt;</h1>
       <div>
         <a href="https://www.linkedin.com/in/larissakoliveira/">
           LinkedIn &#60;-
@@ -32,7 +32,6 @@ export const Contacts = ({ onOpen }) => {
           -&#62; GitHub
         </a>
       </div>
-      <h2 className="sendMsg">Ou envie uma mensagem por aqui mesmo!</h2>
       <FormContact />
     </MainDiv>
   )

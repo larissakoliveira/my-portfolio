@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
       }, */
     }
         :root {
-          --font-navbar: 'Roboto';
+          --font-navbar: 'Fira Code', monospace;
           --background-main-color: #000000;
           --font-color-navbar: #ffffff;
         }

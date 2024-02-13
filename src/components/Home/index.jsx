@@ -3,20 +3,18 @@ import Typing from 'react-typing-animation';
 
 export const Home = () => {
 
-
   return (
-    <div>
     <MainDiv>
-        <p className="start">&lt;/inicio&gt;</p>
-        <Typing speed={30}>
-        <h1> Olá! </h1><br/>
-        <p>
-        Sou {<a href='#aboutMe'>Larissa Oliveira</a>}, <br/> 
-        dev full stack! <br/> <br/> 
-        Venha conhecer melhor meu portfólio...
-        </p>
+        <p className="start">&lt;/start&gt;</p>
+        <Typing speed={60}>
+          <div className="home-container">
+            <h1> Hey! </h1>
+            <p>I am {<a href='#aboutMe'>Larissa Oliveira</a>}, <br/> 
+              Full Stack Developer! <br/> <br/> 
+              Come and check my portfolio<span id="typing-ellipsis">...</span>
+            </p>
+          </div>
         </Typing>
     </MainDiv>
-    </div>
   );
 };

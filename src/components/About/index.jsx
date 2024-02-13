@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <Flex id="aboutMe">
       <DivAboutMe>
-        <h1 className="aboutMe">&lt;/sobre&gt;</h1>
+        <h1 className="aboutMe">&lt;/about&gt;</h1>
         <MainDiv>
           <MainDivLine>
             <span className="numbers">01</span>
@@ -17,14 +17,14 @@ export const About = () => {
             <span className="numbers">02</span>
             <span className="comments">
               {" "}
-              &#47;&#47;Sempre interessada em aprender novas tecnologias. :)
+              // Always interested in learning new technologies :)
             </span>
           </MainDivLine>
           <MainDivLine>
             <span className="numbers">03</span>
             <span className="comments">
               {" "}
-              &#47;&#47;Disposta a aumentar cada dia mais hard e soft skills.{" "}
+              // Ready to increase hard and soft skills every day{" "}
             </span>
           </MainDivLine>
           <MainDivLine>
@@ -69,8 +69,7 @@ export const About = () => {
             <span className="numbers">09</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "08/2016 - 12/2016": "Tradição Mineira Indústria - Estágio em
-              Engenharia de Produção"
+              "08/2016 - 12/2016": "Tradição Mineira Industry - Industrial engineering internship"
             </span>
             <span className="yellow">&#125;</span>,
           </MainDivLine>
@@ -78,7 +77,7 @@ export const About = () => {
             <span className="numbers">11</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-            "05/2017 - 10/2018": "Colégio Marista - Auxiliar Administrativo"
+            "05/2017 - 10/2018": "Marista School - Administrative Assistant"
             </span>
             <span className="yellow">&#125;</span>,
           </MainDivLine>
@@ -86,7 +85,7 @@ export const About = () => {
             <span className="numbers">12</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-            "04/2019 - 03/2020": "Eataly Paris - CHECK"
+            "04/2019 - 03/2020": "Eataly Paris - Commis de salle"
             </span>
             <span className="yellow">&#125;</span>,
           </MainDivLine>
@@ -94,7 +93,7 @@ export const About = () => {
             <span className="numbers">13</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-            "02/2022 - 06/2022": "Coach (monitoria de futuro devs) - Kenzie Academy Brasil"
+            "02/2022 - 06/2022": "Developer Mentor - Kenzie Academy Brasil"
             </span>
             <span className="yellow">&#125;</span>
           </MainDivLine>
@@ -102,7 +101,7 @@ export const About = () => {
             <span className="numbers">14</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-            "06/2022 - Atual": "Desenvolvedora Full Stack - McFadyen Digital"
+            "06/2022 - Atual": "Full Stack Developer - McFadyen Digital"
             </span>
             <span className="yellow">&#125;</span>
           </MainDivLine>
@@ -128,8 +127,8 @@ export const About = () => {
             <span className="numbers">19</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "02/2011 - 12/2016": "Universidade do Estado de Minas Gerais -
-              Engenharia de Produção"
+              "02/2011 - 12/2016": "Minas Gerais State University -
+              Industrial Engineering"
             </span>
             <span className="yellow">&#125;</span>,
           </MainDivLine>
@@ -137,7 +136,7 @@ export const About = () => {
             <span className="numbers">20</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "05/2021 - 06/2022": "Kenzie Academy Brasil - Desenvolvedora Full Stack"
+              "05/2021 - 06/2022": "Kenzie Academy Brasil - Full Stack Developer"
             </span>
             <span className="yellow">&#125;</span>
           </MainDivLine>
@@ -163,8 +162,8 @@ export const About = () => {
             <span className="numbers">25</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "08/2013 - 12/2015": "Graduação Sanduíche/Eng. de Produção -
-              University of Wisconsin - Estados Unidos"
+              "08/2013 - 12/2015": "Sandwich Graduation / Industrial Engineering -
+              University of Wisconsin - United States"
             </span>
             <span className="yellow">&#125;</span>,
           </MainDivLine>
@@ -172,7 +171,7 @@ export const About = () => {
             <span className="numbers">26</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-              "03/2019 - 03/2020": "Working Holiday - Paris/França"
+              "03/2019 - 03/2020": "Working Holiday - Paris / France"
             </span>
             <span className="yellow">&#125;</span>
           </MainDivLine>

@@ -11,24 +11,24 @@ export const FormContact = () => {
       .then((result) => {
         toast.success('return "Thanks for reaching out! I will get back to you shortly')
       }, (error) => {
-        toast.error('Algo deu errado!')
+        toast.error('Something went wrong =/')
       });
       e.target.reset();
   };
   
   return (
         <Form onSubmit={sendEmail}>
-        <header>Por favor, preencha os dados!</header>
+        <h2 className="sendMsg">Or send me a message directly through here!</h2>
         <label className='label'for="name" >
-          Nome completo:
+          Full Name:
         </label>
         <input type="text" placeholder="Nome" name="name" required />
         <label className='label' for="email">
-          Digite seu email:
+          Email:
         </label>
         <input type="email" placeholder="Email" name="email" required />
         <label for="Mensagem,">
-          Mensagem
+          Message
         </label>
         <textarea
           placeholder="Mensagem"
@@ -36,7 +36,7 @@ export const FormContact = () => {
           name="message"
         ></textarea>
         <button type='submit'>
-          Enviar
+          Send
         </button>
         </Form>
  

@@ -26,10 +26,11 @@ const useStyles = makeStyles(() => ({
     minHeight: "80px",
     maxHeight: "90px",
     lineHeight: "100%",
+    width: "100%",
     display: "flex",
     flexWrap: "wrap",
     justifyItems: "center",
-    justifyContent: "center",
+    justifyContent: "space-evenly",
     alignItems: "center",
   },
   title: {
@@ -53,8 +54,10 @@ const Header = () => {
       <AppBar className={classes.appbar} position="fixed">
         <Toolbar className={classes.toolbar}>
           <MenuItem className={classes.title}>
-            <a style={{ textDecoration: "none", color: "#fff" }} href="#start">
-              &lt;/início&gt;
+            <a style={{ textDecoration: "none", color: "#fff" }} 
+            href="#"
+            >
+              &lt;/start&gt;
             </a>
           </MenuItem>
           <MenuItem className={classes.title}>
@@ -62,7 +65,7 @@ const Header = () => {
               style={{ textDecoration: "none", color: "#fff" }}
               href="#projects"
             >
-              &lt;/projetos&gt;
+              &lt;/projects&gt;
             </a>
           </MenuItem>
           <MenuItem className={classes.title}>
@@ -70,7 +73,7 @@ const Header = () => {
               style={{ textDecoration: "none", color: "#fff" }}
               href="#aboutMe"
             >
-              &lt;/sobre&gt;
+              &lt;/about&gt;
             </a>
           </MenuItem>
           <MenuItem className={classes.title}>
@@ -78,19 +81,19 @@ const Header = () => {
               style={{ textDecoration: "none", color: "#fff" }}
               href="#contacts"
             >
-              &lt;/contatos&gt;
+              &lt;/contacts&gt;
             </a>
           </MenuItem>
-          <MenuItem className={classes.title}>
+          {/* <MenuItem className={classes.title}>
             <a
               style={{ textDecoration: "none", color: "#fff" }}
               target="_blank"
               rel="noreferrer"
               href="https://www.canva.com/design/DAE0_KfjgXE/khXvmYofXc7husDQzZHq-w/view?utm_content=DAE0_KfjgXE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
             >
-              &lt;/cv português&gt;
+              &lt;/portuguese CV&gt;
             </a>
-          </MenuItem>
+          </MenuItem> */}
           <MenuItem className={classes.title}>
             <a
               style={{ textDecoration: "none", color: "#fff" }}
@@ -98,7 +101,7 @@ const Header = () => {
               rel="noreferrer"
               href="https://www.canva.com/design/DAE_MNBHv6s/WsPYVH9Z32AojRUq00DijA/view?utm_content=DAE_MNBHv6s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
             >
-              &lt;/cv inglês&gt;
+              &lt;/resume&gt;
             </a>
           </MenuItem>
         </Toolbar>
