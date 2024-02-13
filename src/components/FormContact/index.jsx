@@ -9,7 +9,7 @@ export const FormContact = () => {
     e.preventDefault();
     emailjs.sendForm('portfolio_lari', 'form_portfolio_lari', e.target, 'user_Rtk4ZFWu0RDUgC6G4ZMPa')
       .then((result) => {
-        toast.success('return "Obrigada pelo contato, em breve retornarei!"')
+        toast.success('return "Thanks for reaching out! I will get back to you shortly')
       }, (error) => {
         toast.error('Algo deu errado!')
       });
