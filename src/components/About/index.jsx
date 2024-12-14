@@ -41,8 +41,8 @@ export const About = () => {
           <MainDivLine>
             <span className="numbers">06</span>
             <span className="cyan">this</span>.
-            <span className="lightBlue">city</span> =
-            <span className="red"> "Rio de Janeiro - RJ"</span>
+            <span className="lightBlue">country</span> =
+            <span className="red"> "Brazil"</span>
           </MainDivLine>
           <MainDivLine>
             <span className="numbers">07</span>
@@ -101,7 +101,7 @@ export const About = () => {
             <span className="numbers">14</span>
             <span className="yellowIndentedThrice">&#123;</span>
             <span className="red">
-            "06/2022 - Atual": "Full Stack Developer - McFadyen Digital"
+            "06/2022 - present": "Full Stack Developer - McFadyen Digital"
             </span>
             <span className="yellow">&#125;</span>
           </MainDivLine>
