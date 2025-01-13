@@ -5,6 +5,7 @@ import quiz from "../../assets/Video/quiz.webm";
 import betterLife from "../../assets/Video/better-life.mp4";
 import rockPaperScissor from "../../assets/Video/rock-paper-scissor.mp4";
 import Hamburkenzie from "../../assets/Video/hamburgueria.webm"; 
+import beeApp from "../../assets/Video/bee-app.mp4";
 import { Flex } from "@chakra-ui/react";
 import ModalReadMe from "../ModalReadMe";
 
@@ -62,6 +63,15 @@ export const Projects = () => {
             <p><span>#</span>React <span>#</span>mobileFirst <span>#</span>JavaScript <span>#</span>cypress <br/><span>#</span>jwt-decode <span>#</span>react-google-login <span>#</span>JSON-server  </p>
             <video width="100%" src={cookin} autoPlay loop muted />
             <ModalReadMe content={"The application, built as a group project, functions as a social network for sharing recipes. Users have the option to register more easily using their Google account, access all publicly available recipes, add their own recipes, and share them. The base URL for the API we created for the application is https://api-cookin.herokuapp.com."} title={"Cookin'App"}/>
+          </div>
+        </DivProjects>
+        <h1 className="subtitle"><span>&#60;h1&#62; </span> Freelance <span>&#60;/h1&#62;</span></h1>
+        <DivProjects>
+          <div>
+            <a target="_blank" rel="noreferrer" href="https://bee-app-lovat.vercel.app/">Bee App</a>
+            <p><span>#</span>ContentFul <span>#</span>Reactjs <span>#</span>Nodejs <br/> <span>#</span>Webhook <span>#</span>NodeMailer <span>#</span>Tailwind </p>
+            <video width="100%" src={beeApp} autoPlay loop muted />
+            <ModalReadMe content={"This project was developed for a Dutch client who wanted a simple solution to automatically notify customers via email when a product was back in stock. The notifications are triggered when the client updates product availability in Contentful. Additionally, the system supports multiple languages, as requested." } title={"BeeApp"}/>
           </div>
         </DivProjects>
       </MainSection>

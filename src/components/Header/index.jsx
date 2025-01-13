@@ -99,7 +99,7 @@ const Header = () => {
               style={{ textDecoration: "none", color: "#fff" }}
               target="_blank"
               rel="noreferrer"
-              href="https://www.canva.com/design/DAE_MNBHv6s/WsPYVH9Z32AojRUq00DijA/view?utm_content=DAE_MNBHv6s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              href="https://drive.google.com/file/d/1Jtxg6ShZJh05XRQ9ljE_FBXceGO3liyM/view?usp=sharing"
             >
               &lt;/resume&gt;
             </a>
