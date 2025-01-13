@@ -69,7 +69,7 @@ export const Projects = () => {
         <DivProjects>
           <div>
             <a target="_blank" rel="noreferrer" href="https://bee-app-lovat.vercel.app/">Bee App</a>
-            <p><span>#</span>ContentFul <span>#</span>Reactjs <span>#</span>Nodejs <br/> <span>#</span>Webhook <span>#</span>NodeMailer <span>#</span>Tailwind </p>
+            <p><span>#</span>ContentFul <span>#</span>TypeScript <span>#</span>Reactjs <span>#</span>Nodejs <br/> <span>#</span>Webhook <span>#</span>NodeMailer <span>#</span>Tailwind </p>
             <video width="100%" src={beeApp} autoPlay loop muted />
             <ModalReadMe content={"This project was developed for a Dutch client who wanted a simple solution to automatically notify customers via email when a product was back in stock. The notifications are triggered when the client updates product availability in Contentful. Additionally, the system supports multiple languages, as requested." } title={"BeeApp"}/>
           </div>
