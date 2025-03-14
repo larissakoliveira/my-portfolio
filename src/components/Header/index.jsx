@@ -99,7 +99,7 @@ const Header = () => {
               style={{ textDecoration: "none", color: "#fff" }}
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1O2ec9AVGNTo5v43m4Q3bXl8JvLFRUeGD/view?usp=sharing"
+              href="https://drive.google.com/file/d/1sEJVxlw9z01AjpSo5VUDYKdOYU6krT2K/view?usp=drive_link"
             >
               &lt;/resume&gt;
             </a>
