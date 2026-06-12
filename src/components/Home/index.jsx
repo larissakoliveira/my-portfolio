@@ -10,7 +10,8 @@ export const Home = () => {
           <div className="home-container">
             <h1> Hey! </h1>
             <p>I am {<a href='#aboutMe'>Larissa Oliveira</a>}, <br/> 
-              Full Stack Developer! <br/> <br/> 
+              Frontend Engineer! <br/>
+              React · TypeScript · Design Systems · a11y · Testing <br/> <br/> 
               Come and check my portfolio<span id="typing-ellipsis">...</span>
             </p>
           </div>

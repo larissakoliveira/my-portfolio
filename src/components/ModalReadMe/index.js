@@ -74,7 +74,7 @@ const ModalReadMe = ({ title, content}) => {
 
   return (
     <ModalContent>
-      <h2 onClick={openModal}>README.md</h2>
+      <h2 className="readme-trigger" onClick={openModal}>README.md</h2>
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}

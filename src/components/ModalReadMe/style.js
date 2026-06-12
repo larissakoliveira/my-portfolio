@@ -14,12 +14,19 @@ export const CloseModal = styled.button`
 `;
 
 export const ModalContent = styled.div`
+  text-align: center;
+  width: 100%;
 
-  h2 {
-    margin-bottom: 20px;
+  .readme-trigger {
+    margin: 0;
     color: #fff;
     cursor: pointer;
-    margin-top: 5px;
-  }
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
 
+    &:hover {
+      opacity: 0.85;
+    }
+  }
 `;
